@@ -5,59 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="arte, artesania, obra, ">
-    <meta name="description" content="">
+    <meta name="keywords" content="arte, artesania, obra, animales, colores">
+    <meta name="description" content="aqui encontraras todo tipo de mosaiquismo">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./recursos/artesania 1.jpg">
-    <title>veros | INICIO</title>
+    <title>Veros | INICIO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
 </head>
 <body>
     <header class="header">
         <nav>
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">inicio</a>
+              <a class="navbar-brand cambiarletras" href="./index.html">inicio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./pages/contactos.html">contactos</a>
+                    <a class="nav-link active cambiarletras" aria-current="page" href="./pages/contactos.html">contactos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/faq.html">faq</a>
+                    <a class="nav-link cambiarletras" href="./pages/faq.html">faq</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/productos.html">productos</a>
+                    <a class="nav-link cambiarletras" href="./pages/productos.html">productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/quienesSomos.html">quienesSomos</a>
+                    <a class="nav-link cambiarletras" href="./pages/quienesSomos.html">quienesSomos</a>
                   </li>
               </nav>
             <nav class="estrella container-fluid">
-                <img src="../recursos/artesania 1.jpg" class="img-fluid img-thumbnail" alt="artesaniaEstrella">
+                <img src="./recursos/artesania 1.jpg" class="img-fluid img-thumbnail" alt="artesaniaEstrella">
               </nav>
         </nav>
     </header>
     <main class="main">
      <div class="centrar">
-      <h1 id="letraschicas container-fluid">ALGUNOS DE NUESTROS PRODUCTOS MAS POPULARES</h1>
+      <h1 id="letraschicas container-fluid cambiarletras">ALGUNOS DE NUESTROS PRODUCTOS MAS POPULARES</h1>
     </div>
-      <div class="main flexFotos container-fluid">
-        <img src="./recursos/artesania 2.jpg" alt="artesania2" class="tamañoImg">
-        <img src="./recursos/artesania 3.jpg" alt="artesania3" class="tamañoImg">
-        <img src="./recursos/artesania 4.jpg" alt="artesania4" class="tamañoImg">
+      <div class="main container-fluid">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./recursos/artesania 8.jpg" class="d-block w-100 tamañoImg" alt="infinitos">
+            </div>
+            <div class="carousel-item">
+              <img src="./recursos/artesania 9.jpg" class="d-block w-100 tamañoImg" alt="nube">
+            </div>
+            <div class="carousel-item">
+              <img src="./recursos/artesania 10.jpg" class="d-block w-100 tamañoImg" alt="lagartija">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
 
     </main>
     <footer class="footer">
       <ul class="ul redesSocialesflex">
-          <li><a href="#"><img src="../recursos/facebook negro.jpg" alt="facebook" class="redesSociales"></a></li>
-          <li><a href="#"><img src="../recursos/instagram negro.webp" alt="instagram" class="redesSociales"></a></li>
-          <li><a href="#"><img src="../recursos/whatsapp negro.png" alt="whatsapp" class="redesSociales"></a></li>
+          <li><a href="#"><img src="./recursos/facebook negro2.png" alt="facebook" class="redesSociales"></a></li>
+          <li><a href="#"><img src="./recursos/instagram negro2.png" alt="instagram" class="redesSociales"></a></li>
+          <li><a href="#"><img src="./recursos/whatsapp negro.png" alt="whatsapp" class="redesSociales"></a></li>
       </ul>
       <div class="divFlex">
         <p class="footer letrasBlancas">Gracias por entrar a la pagina</p>

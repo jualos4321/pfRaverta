@@ -2,26 +2,24 @@
     margin: 0;
     padding: 0;
 }
+
+/*color de header*/
 .header{
     background-color: pink;
     
     
 }
 
-.flexFotos{
-    display: flex;
-    height: 300px;
-    justify-content: center;
-}
-
 #letraschicas{
     font-size: small;
 }
 
+/*el accordion de faq*/
+
 .accordion{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
 }
 
 .centrar{
@@ -34,9 +32,13 @@
     color: white;
 }
 
+/*las imagenes productos flex*/
+
 .productosFlex{
     display: flex;
     justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .llenar{
@@ -49,6 +51,11 @@
     padding-bottom: 50px;
 }
 
+.letrasGrandes3{
+    font-size: large;
+}
+
+/*el flex en quienes somos*/
 
 .pFlex{
     display: flex;
@@ -56,6 +63,12 @@
     padding-right: 100px;
     background-color: aqua;
     border: #000000 solid 2px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cambiarletras{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .boton{
@@ -67,11 +80,18 @@
     font-size: medium;
 }
 
+/*el tamaño de index*/
 
 .tamañoImg{
+    height: 700px;
+}
+
+/*el tamaño de las imagenes de productos*/
+
+.tamañoImg2{
     width: 300px;
     height: 300px;
-    padding-left: 30px;
+    padding: 5px;
 }
 
 .divFlex{
@@ -85,10 +105,12 @@
     
 }
 
+/*las imagens del footer*/
 
 .redesSociales{
     width: 50px;
     height: 50px;
+    margin-left: 10px;
 }
 
 .redesSocialesflex{
@@ -105,6 +127,9 @@
 .main{
     background-color: pink;
 }
+
+/*la estrella de todas las paginas*/
+
 .estrella{
     display: flex;
     height: 300px;
@@ -127,3 +152,5 @@ h3{
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
